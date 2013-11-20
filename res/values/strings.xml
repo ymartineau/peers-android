@@ -4,5 +4,15 @@
     <string name="app_name">Peers</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="callee_hint">sip:alice@atlanta.com</string>
+    <string name="call_button">Call</string>
+    <string name="settings_button">Settings</string>
 
+    <string name="user_hint">user</string>
+    <string name="domain_hint">domain.com</string>
+    <string name="password_hint">password</string>
+    <string name="outboundproxy_hint">sip:outbound-proxy;lr</string>
+    <string name="ok_button">OK</string>
+    
+    <string name="hangup_button">Hangup</string>
 </resources>

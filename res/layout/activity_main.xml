@@ -8,9 +8,34 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity" >
 
-    <TextView
+    <Button
+        android:id="@+id/okButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:layout_alignBottom="@+id/calleeEditText"
+        android:layout_toRightOf="@+id/calleeEditText"
+        android:text="@string/call_button"
+        android:onClick="call" />
+
+    <EditText
+        android:id="@+id/calleeEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:hint="@string/callee_hint" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/settingsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/calleeEditText"
+        android:layout_below="@+id/calleeEditText"
+        android:text="@string/settings_button"
+        android:onClick="settings" />
 
 </RelativeLayout>
